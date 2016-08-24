@@ -1,6 +1,6 @@
 {
 
-  "name": "Jane Q. Fullstacker",
+  "name": "Carey A. LaMothe",
 
   "meta": {
     "format": "FRESH@0.6.0",
@@ -8,17 +8,17 @@
   },
 
   "info": {
-    "label": "Senior Developer",
+    "label": "Full-stack Web Developer",
     "characterClass": "Programmer",
-    "brief": "**Imaginary full-stack software developer with 6+ years industry experience** specializing in cloud-driven web applications and middleware. A native of southern CA, Jane enjoys hiking, mystery novels, and the company of Rufus, her two year old beagle.",
-    "image": "jane_doe.png",
+    "brief": "Full-Stack Web Developer with a background in orchestral music as well as 5 years of administrative work experience.  Comfortable with JavaScript, PostgreSQL,  Angular,  and learning new technologies.  Studied Python.",
+    "image": "Rooftop.jpg",
     "quote": "Be the change you want to see in the world."
   },
 
   "contact": {
     "website": "http://janef.me/blog",
-    "phone": "1-650-999-7777",
-    "email": "jdoe@onecoolstartup.io",
+    "phone": "310-773-7308",
+    "email": "carey.lamothe@gmail.com",
     "other": [
       {
         "label": "Home Phone",
