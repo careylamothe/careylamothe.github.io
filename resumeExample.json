@@ -12,45 +12,45 @@
     "characterClass": "Programmer",
     "brief": "Full-Stack Web Developer with a background in orchestral music as well as 5 years of administrative work experience.  Comfortable with JavaScript, PostgreSQL,  Angular,  and learning new technologies.  Studied Python.",
     "image": "Rooftop.jpg",
-    "quote": "Be the change you want to see in the world."
+    "quote": ""
   },
 
   "contact": {
-    "website": "http://janef.me/blog",
+    "website": "",
     "phone": "310-773-7308",
     "email": "carey.lamothe@gmail.com",
     "other": [
       {
-        "label": "Home Phone",
+        "label": "Mobile",
         "flavor": "phone",
-        "value": "1-650-999-4321"
+        "value": "1-310-773-7308"
       },
       {
-        "label": "Work Phone",
+        "label": "",
         "flavor": "phone",
-        "value": "1-650-777-1234"
+        "value": ""
       },
       {
         "label": "Personal Email",
         "flavor": "email",
-        "value": "jane@janef.me"
+        "value": "carey.lamothe@gmail.com"
       }
     ]
   },
 
   "location": {
-    "address": "Jane Fullstacker\n123 Somewhere Rd.\nMountain View, CA 94035",
-    "city": "Mountain View",
-    "region": "CA",
-    "code": "94035",
+    "address": "Carey LaMothe\n2624 31st Ave. W\nSeattle, WA 98199",
+    "city": "Seattle",
+    "region": "WA",
+    "code": "98199",
     "country": "US"
   },
 
   "projects": [
     {
-      "title": "HackMyResume",
-      "category": "FOSS",
-      "role": "contributor",
+      "title": "Music Conractor",
+      "category": "",
+      "role": "author",
       "url": "http://please.hackmyresume.com",
       "start": "2015-09",
       "repo": "https://github.com/hacksalot/hackmyresume",
