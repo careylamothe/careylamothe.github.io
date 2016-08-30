@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
-    
+
     <head>
         <meta charset="utf-8">
-        <title>Carey A. LaMothe</title>
+        <title>Carey LaMothe</title>
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic'
         rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -11,11 +11,11 @@
             * {
               box-sizing: border-box;
             }
-            
+
             main {
               display: block;
             }
-            
+
             body {
               font-family: 'Helvetica Neue', 'Helvetica', 'Segoe UI', 'Calibri', 'sans-serif';
               font-size: 15px;
@@ -25,12 +25,12 @@
               margin: 0;
               padding: 0;
             }
-            
+
             /* Typical page borders are awkward when rendered to PDF. */
             body.pdf {
               background-color: #FFFFFF;
             }
-            
+
             /* Adobe or wkhtmltopdf has issues with the <main> tag, so we use <div> for
             the PDF case, <main> for the HTML case, and style both via an ID. */
             #main {
@@ -39,26 +39,26 @@
               padding: 10px;
               border: 1px solid #E6E6E6;
             }
-            
+
             body.pdf > #main {
               border: none;
             }
-            
+
             #container > header {
               padding-top: 6em;
               padding-bottom: 1em;
             }
-            
+
             body.pdf #container > header {
               padding: 0;
             }
-            
+
             #main > #container > section {
               margin-left: 5em;
               position: relative;
               display: block;
             }
-            
+
             span.fa
             {
               position: absolute;
@@ -67,55 +67,55 @@
               font-size: 30px;
               color: #BFC1C3;
             }
-            
+
             hr {
               margin-top: 20px;
               margin-bottom: 20px;
               border: 0;
               border-top: 1px solid #EEE;
             }
-            
+
             .tenure, .keywords {
               font-size: 75%;
             }
-            
+
             h1 {
               margin: 0;
               font-size: 46px;
             }
-            
+
             h2 {
               font-size: 24px;
               color: #BFC1C3;
               text-transform: uppercase;
               font-weight: normal;
             }
-            
+
             h3 {
               margin-bottom: 0;
               font-size: 18px;
             }
-            
+
             a, a:visited {
               color: #428BCA;
               text-decoration: none;
               font-weight: bold;
             }
-            
+
             a:hover {
               text-decoration: underline;
             }
-            
+
             .defunct {
               color: #989898;
               font-weight: bold;
             }
-            
+
             #summary > p > strong {
               font-size: 1.25em;
             }
-            
-            
+
+
             .label-keyword {
               display: inline-block;
               background: #7eb0db;
@@ -126,7 +126,7 @@
               border-radius: 5px;
               margin-top: 2px;
             }
-            
+
             .card-skills {
                 position: relative;
             }
@@ -140,7 +140,7 @@
                 border-radius: 3px;
                 padding: 10px;
             }
-            
+
             .skill-level {
               border-radius: 3px;
               position: absolute;
@@ -181,25 +181,25 @@
                 margin-left: 20px;
               }
             }
-            
+
             .list-unstyled {
               padding-left: 0;
               list-style: none;
             }
-            
+
             .card-skills {
               position: relative;
             }
-            
+
             .space-top {
                 margin-top: 10px;
             }
-            
+
             #container {
               max-width: 800px;
               margin: 0 auto;
             }
-            
+
             #elevator-pitch {
               text-align: center;
               font-size: 24px;
@@ -207,29 +207,27 @@
               text-transform: uppercase;
               font-weight: normal;
             }
-            
+
             .res-label {
               font-style: italic;
             }
         </style>
     </head>
-    
+
     <body>
         <main id="main">
             <div id="container">
                 <header>
-                     <h1>Carey A. LaMothe</h1>
+                     <h1>Carey LaMothe</h1>
 
                     <div id="contact"></div>
                 </header>
                 <hr>
                 <section id="summary">
-                    <header> <span class="fa fa-lg fa-info"></span> 
+                    <header> <span class="fa fa-lg fa-info"></span>
                          <h2>info</h2>
 
-                    </header>Full-Stack Web Developer with a background in orchestral music as well
-                    as 5 years of administrative work experience. Comfortable with JavaScript,
-                    PostgreSQL, Angular, and learning new technologies. Studied Python.</section>
+                    </header> <strong>Full-Stack Web Developer with a background in orchestral music as well as 8 years of administrative work experience.  Comfortable with JavaScript, PostgreSQL,  Angular,  and learning new technologies.  Studied Python.  </section>
                 <hr>
                 <section id="skills">
                     <header>
@@ -248,8 +246,7 @@
  <span class="label label-keyword">HTML 5</span>
 
                                     <span
-                                    class="label label-keyword">CSS</span> <span class="label label-keyword">LAMP</span>
- <span class="label label-keyword">MVC</span>
+                                    class="label label-keyword">CSS</span>
 
                                         <span
                                         class="label label-keyword">REST</span>
@@ -269,8 +266,7 @@
                                     class="label label-keyword">jQuery</span> <span class="label label-keyword">Bootstrap</span>
  <span class="label label-keyword">React.js</span>
 
-                                        <span
-                                        class="label label-keyword">Backbone.js</span>
+
                                 </div>
                             </div>
                         </li>
@@ -280,34 +276,13 @@
                             </div>
                             <div class="skill-info"> <strong>Database</strong>
 
-                                <div class="space-top labels"> <span class="label label-keyword">MySQL</span>
+                                <div class="space-top labels">
  <span class="label label-keyword">PostgreSQL</span>
 
-                                    <span
-                                    class="label label-keyword">NoSQL</span> <span class="label label-keyword">ORM</span>
- <span class="label label-keyword">Hibernate</span>
-
                                 </div>
                             </div>
                         </li>
-                        <li class="card card-nested card-skills">
-                            <div class="skill-level" rel="tooltip" title="intermediate" data-placement="left">
-                                <div class="skill-progress intermediate"></div>
-                            </div>
-                            <div class="skill-info"> <strong>Cloud</strong>
 
-                                <div class="space-top labels"> <span class="label label-keyword">AWS</span>
- <span class="label label-keyword">EC2</span>
-
-                                    <span
-                                    class="label label-keyword">RDS</span> <span class="label label-keyword">S3</span>
- <span class="label label-keyword">Azure</span>
-
-                                        <span
-                                        class="label label-keyword">Dropbox</span>
-                                </div>
-                            </div>
-                        </li>
                         <li class="card card-nested card-skills">
                             <div class="skill-level" rel="tooltip" title="beginner" data-placement="left">
                                 <div class="skill-progress beginner"></div>
@@ -315,14 +290,9 @@
                             <div class="skill-info"> <strong>Project</strong>
 
                                 <div class="space-top labels"> <span class="label label-keyword">Agile</span>
- <span class="label label-keyword">TFS</span>
 
-                                    <span
-                                    class="label label-keyword">JIRA</span> <span class="label label-keyword">GitHub</span>
- <span class="label label-keyword">Unified Process</span>
+ <span class="label label-keyword">GitHub</span>
 
-                                        <span
-                                        class="label label-keyword">MS Project</span>
                                 </div>
                             </div>
                         </li>
@@ -330,7 +300,7 @@
                 </section>
                 <hr>
                 <section id="employment">
-                    <header> <span class="fa fa-lg fa-building"></span> 
+                    <header> <span class="fa fa-lg fa-building"></span>
                          <h2>employment</h2>
 
                     </header>
@@ -405,14 +375,14 @@
                 </section>
                 <hr>
                 <section id="projects">
-                    <header> <span class="fa fa-lg fa-star"></span> 
+                    <header> <span class="fa fa-lg fa-star"></span>
                          <h2>projects</h2>
 
                     </header>
                     <div>
-                        
-<h3><em>Author</em>,
-<a href="http://please.hackmyresume.com">Music Conractor</a>
+
+<h3><em>Contributor</em>,
+<a href="http://please.hackmyresume.com">HackMyResume</a>
 </h3>
 
 <span class="tenure">2015-09 — Present</span>
@@ -421,7 +391,7 @@
                         <p>Exemplar user for HackMyResume and FluentCV!</p>
                     </div>
                     <div>
-                        
+
 <h3><em>Co-creator</em>,
 <a href="http://project.website.com">Augmented Android</a>
 </h3>
@@ -432,7 +402,7 @@
                         <p>Performed flagship product conceptualization and development.</p>
                     </div>
                     <div>
-                        
+
 <h3><em>Creator</em>,
 <a href="http://myblog.jane.com/blog">Blog</a>
 </h3>
@@ -444,12 +414,12 @@
                 </section>
                 <hr>
                 <section id="education">
-                    <header> <span class="fa fa-lg fa-mortar-board"></span> 
+                    <header> <span class="fa fa-lg fa-mortar-board"></span>
                          <h2>education</h2>
 
                     </header>
                     <div>
-                        
+
 <h3><em>BSCS</em>,
 <a href="https://www.cornell.edu/">Cornell University</a>
 </h3>
@@ -460,7 +430,7 @@
                         <p>A multiline summary of the education.</p>
                     </div>
                     <div>
-                        
+
 <h3>
 <a href="https://en.wikipedia.org/wiki/Medfield_College">Medfield College</a>
 </h3>
@@ -473,12 +443,12 @@
                 </section>
                 <hr>
                 <section id="governance">
-                    <header> <span class="fa fa-lg fa-balance-scale"></span> 
+                    <header> <span class="fa fa-lg fa-balance-scale"></span>
                          <h2>governance</h2>
 
                     </header>
                     <div>
-                        
+
 <h3><em>Member</em>,
 <a href="http://themommiesnetwork.org">The Mommies Network</a>
 </h3>
@@ -489,7 +459,7 @@
                             for TMN.</p>
                     </div>
                     <div>
-                        
+
 <h3><em>Academic Contributor</em>,
 <a href="https://www.khronos.org">Khronos Group</a>
 </h3>
@@ -503,7 +473,7 @@
                 </section>
                 <hr>
                 <section id="service">
-                    <header> <span class="fa fa-lg fa-child"></span> 
+                    <header> <span class="fa fa-lg fa-child"></span>
                          <h2>service</h2>
 
                     </header>
@@ -540,7 +510,7 @@
                 </section>
                 <hr>
                 <section id="affiliation">
-                    <header> <span class="fa fa-lg fa-share-alt"></span> 
+                    <header> <span class="fa fa-lg fa-share-alt"></span>
                          <h2>affiliation</h2>
 
                     </header>
@@ -582,7 +552,7 @@
                 </section>
                 <hr>
                 <section id="samples">
-                    <header> <span class="fa fa-lg fa-share"></span> 
+                    <header> <span class="fa fa-lg fa-share"></span>
                          <h2>samples</h2>
 
                     </header>
@@ -605,7 +575,7 @@
                 </section>
                 <hr>
                 <section id="writing">
-                    <header> <span class="fa fa-lg fa-pencil"></span> 
+                    <header> <span class="fa fa-lg fa-pencil"></span>
                          <h2>writing</h2>
 
                     </header>
@@ -632,7 +602,7 @@
                 </section>
                 <hr>
                 <section id="reading">
-                    <header> <span class="fa fa-lg fa-book"></span> 
+                    <header> <span class="fa fa-lg fa-book"></span>
                          <h2>reading</h2>
 
                     </header>
@@ -663,7 +633,7 @@
                 </section>
                 <hr>
                 <section id="recognition">
-                    <header> <span class="fa fa-lg fa-trophy"></span> 
+                    <header> <span class="fa fa-lg fa-trophy"></span>
                          <h2>recognition</h2>
 
                     </header>
@@ -680,7 +650,7 @@
                 </section>
                 <hr>
                 <section id="speaking">
-                    <header> <span class="fa fa-lg fa-users"></span> 
+                    <header> <span class="fa fa-lg fa-users"></span>
                          <h2>speaking</h2>
 
                     </header>
@@ -695,7 +665,7 @@
                 </section>
                 <hr>
                 <section id="testimonials">
-                    <header> <span class="fa fa-lg fa-quote-left"></span> 
+                    <header> <span class="fa fa-lg fa-quote-left"></span>
                          <h2>testimonials</h2>
 
                     </header>
@@ -719,7 +689,7 @@
                 </section>
                 <hr>
                 <section id="references">
-                    <header> <span class="fa fa-lg fa-thumbs-o-up"></span> 
+                    <header> <span class="fa fa-lg fa-thumbs-o-up"></span>
                          <h2>references</h2>
 
                     </header>
@@ -730,7 +700,7 @@
                 </section>
                 <hr>
                 <section id="interests">
-                    <header> <span class="fa fa-lg fa-bicycle"></span> 
+                    <header> <span class="fa fa-lg fa-bicycle"></span>
                          <h2>interests</h2>
 
                     </header>
